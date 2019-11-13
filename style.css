@@ -1,0 +1,25 @@
+h1{
+    color: #68dd78;
+    font-weight: bold;
+}
+
+a{
+    color: red;
+    font-family: 'Times New Roman', Times, serif
+}
+
+option{
+    color: rgb(148, 40, 100);
+    font-family: 'Times New Roman', Times, serif
+}
+
+td{
+    color: chocolate;
+    font: bold;
+}
+
+th{
+    color: blueviolet;
+    font: 900;
+}
+
