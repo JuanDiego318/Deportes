@@ -1,5 +1,5 @@
-h1{
-    color: #68dd78;
+#subtitulo {
+    color: #117e20;
     font-weight: bold;
 }
 
@@ -23,3 +23,26 @@ th{
     font: 900;
 }
 
+.center {
+
+    text-align: center;
+    color: blue;
+    
+}
+
+body {
+
+    text-align: center;
+}
+
+table{
+
+   height: 100;
+   width: 100;
+   border: 1
+}
+
+tr{
+
+    text-align: center;
+}
