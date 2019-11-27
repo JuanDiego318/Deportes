@@ -1,48 +1,82 @@
 #subtitulo {
-    color: #117e20;
-    font-weight: bold;
+color: #117e20;
+font-weight: bold;
 }
 
 a{
-    color: red;
-    font-family: 'Times New Roman', Times, serif
+color: red;
+font-family: 'Times New Roman', Times, serif
 }
 
 option{
-    color: rgb(148, 40, 100);
-    font-family: 'Times New Roman', Times, serif
+color: rgb(148, 40, 100);
+font-family: 'Times New Roman', Times, serif
 }
 
 td{
-    color: chocolate;
-    font: bold;
+color: chocolate;
+font: bold;
 }
 
 th{
-    color: blueviolet;
-    font: 900;
+color: blueviolet;
+font: 900;
 }
 
 .center {
 
-    text-align: center;
-    color: blue;
-    
+text-align: center;
+color: blue;
+
 }
 
 body {
 
-    text-align: center;
+text-align: center;
 }
 
 table{
-
-   height: 100;
-   width: 100;
-   border: 1
+height: 100;
+width: 100;
+border: 1
 }
-
 tr{
-
-    text-align: center;
+text-align: center;
+}
+body{
+border-style: hidden;
+background-color: rgb(21, 142, 223);
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+li{
+float: left;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: rgb(160, 12, 12);
+}
+a:hover{
+    color: black;
+}
+img:hover{
+    width: 500px;
+}
+h1:hover{
+    color: aqua;
+}
+iframe:hover{
+    width: 600px;
 }
