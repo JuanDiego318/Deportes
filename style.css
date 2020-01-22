@@ -75,12 +75,18 @@ a:hover{
 }
 img:hover{
     width: 500px;
+    transform: rotateZ(20deg);
+    transition-duration: 3s;
+    transition-timing-function: linear;
 }
 h1:hover{
     color: rgb(35, 86, 128);
 }
 iframe:hover{
     width: 600px;
+    transform: rotateZ(-20deg) rotateY(35deg);
+    transition-duration: 10s;
+    transition-timing-function: linear;   
 }
 h1{
     margin: 50px;
@@ -158,3 +164,4 @@ form, select, input{
 marquee{
     right: 100px;
 }
+
