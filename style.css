@@ -5,7 +5,9 @@ font-weight: bold;
 
 a{
 color: red;
-font-family: 'Times New Roman', Times, serif
+font-family: 'Times New Roman', Times, serif;
+transition-duration: 10s;
+transition-timing-function: linear;
 }
 
 option{
@@ -49,12 +51,15 @@ color: rgb(0, 0, 0);
 body{
 border-style: hidden;
 }
-ul {
+ul{
 list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: #333;
+filter: invert(100%);
+transition-duration: 0.5s;
+
 }
 li{
 float: left;
@@ -77,10 +82,13 @@ img:hover{
     width: 500px;
     transform: rotateZ(20deg);
     transition-duration: 3s;
-    transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(.06,.69,.92,.72);
+    filter: invert(100%)
 }
 h1:hover{
     color: rgb(35, 86, 128);
+    transition-duration: 2s;
+    transition-timing-function: linear;
 }
 iframe:hover{
     width: 600px;
@@ -164,4 +172,5 @@ form, select, input{
 marquee{
     right: 100px;
 }
+
 
